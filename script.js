@@ -1,4 +1,4 @@
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("matrix-background");
 var context = canvas.getContext("2d");
 var W = window.innerWidth;
 var H = window.innerHeight;
