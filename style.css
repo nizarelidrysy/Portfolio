@@ -34,7 +34,6 @@ body {
   font-family: "Bitcount";
   font-weight: 100;
   font-size: 120px;
-  padding-left: 80px;
 }
 @keyframes blink {
   0%,
@@ -186,9 +185,15 @@ button {
 .logo-sebn {
   width: 300px;
   height: auto;
+  margin-left: 30px;
+}
+.logo-seb {
+  width: auto;
+  height: 53px;
+  margin-bottom: 20px;
 }
 
-.navbar-container {
+.navbar-container { 
   display: flex;
   justify-content: space-between;
 }
@@ -196,6 +201,10 @@ button {
   border: dotted white;
   height: 1px;
   opacity: 0.5;
+}
+.website-end {
+  border: solid blueviolet;
+  height: 1px;
 }
 .anchors-container {
   display: flex;
@@ -216,10 +225,17 @@ button {
 }
 .social-icons-container a img{
   opacity: 0.6;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-top: 10px;
+  margin-right: 10px;
 }
 .social-icons-container a img:hover {
   opacity: 1;
+}
+#customlogo-sebn {
+  color: blueviolet;
+}
+#customlogo-sebn:hover {
+  color: cyan;
 }
